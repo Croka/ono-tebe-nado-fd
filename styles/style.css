@@ -104,7 +104,6 @@
     ". you ."
     ". . need";
   margin-top: 165px;
- 
 }
   
 .cover-title-text {
@@ -123,18 +122,15 @@
   margin-bottom: -1px;
   margin-top: 6px;
   margin-left: 14px;
-
 }
 
-.cover-title-text-bottom {  /* НАДО не как не ложится под ТЕБЕ, возможно мне поможет отрицательный отступ*/
-  font-size: 100px;
+.cover-title-text-bottom {  
   grid-area: need;
   margin-right: -30px;
   letter-spacing: 0.3em;
   justify-self: end;
   transform: translateX(-83px);
   margin-top: 11px;
-
 }
 
 .description {
@@ -276,8 +272,7 @@
   overflow: visible;
   white-space: normal;
   line-height: 1.2;
-  
-} 
+ } 
 
 .lots-more {
   display: inline-block;
@@ -298,9 +293,7 @@
   grid-template-columns: auto 1fr;
   gap: 25px 71px; 
   padding-top: 36px;
-  padding-right: 50px;
-
-  
+  padding-right: 50px;  
 }
 
 .about-logo {
@@ -313,8 +306,7 @@
   align-items: center;
   justify-content: center;
   margin-left: 72px;
-  
-}
+  }
 
 .about-img {
   width: 149px;
@@ -333,7 +325,6 @@
 .about-text {
   grid-area: about-text;
   font-size: 20px;
-
 }
 
 .text-top {
@@ -416,8 +407,7 @@
   display: flex; 
   gap: 48px; 
   margin-right: 50px;
- 
-}
+ }
 
 .social-icon {
   width: 48px; 
