@@ -13,16 +13,14 @@
     <header class="header">
       <nav class="nav">
         <ul class="nav-menu">
-          <li class="nav-menu__item nav-menu__item--no-marker">
-            <a href="#0" class="nav-menu__link nav-menu__link--active"
-              >Главная</a
-            >
+          <li class="nav-menu-item nav-menu-item-no-marker">
+            <a href="#0" class="nav-menu-link nav-menu_link-active">Главная</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#0" class="nav-menu-link header-link">Посмотреть лоты</a>
           </li>
           <li class="nav-menu__item">
-            <a href="#0" class="nav-menu__link">Посмотреть лоты</a>
-          </li>
-          <li class="nav-menu__item">
-            <a href="#0" class="nav-menu__link">Об аукционе</a>
+            <a href="#0" class="nav-menu-link header-link">Об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -32,7 +30,7 @@
           src="./images/logo-black.svg"
           alt="Логотип комании оно тебе надо черного цвета"
       /></a>
-      <address class="header-address">
+      <address class="address">
         <a class="header-address-phone address-link" href="tel:+99995555555"
           >+9 999 555 5555</a
         >
@@ -47,16 +45,27 @@
       </address>
     </header>
     <main>
-      <section class="cover">
+      <section class="cover content-section">
         <div class="cover-overlay"></div>
         <h1 class="cover-title">
-          <span class="cover-title-text">оНО</span>
-          <span class="cover-title-text-center">тебе</span>
-          <span class="cover-title-text-bottom">надо</span>
+          <span class="cover-title-text">
+            О<span class="letter-spacing-extended">но</span>
+          </span>
+          <span class="cover-title-text aligned-text-center">
+            Те<span class="letter-spacing-extended">бе</span>
+          </span>
+          <span class="cover-title-text aligned-text-right">
+            <span class="letter-spacing-extended">Н</span>ад<span
+              class="no-letter-spacing"
+              >о</span
+            >
+          </span>
         </h1>
-        <div class="description">
-          <p class="desc-text">Аукцион вещей, в которые никто не верил</p>
-          <button class="button">Сделать ставку</button>
+        <div class="cover-description">
+          <p class="cover-description-text aligned-text-center">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
@@ -151,7 +160,7 @@
     </main>
     <footer class="footer">
       <div class="footer-content">
-        <div class="footer-contacts">
+        <address class="address footer-contacts">
           <a class="address-link" href="tel:+99995555555">+9 999 555 5555</a>
           <a class="address-link" href="mailto:info@sobaka.ge"
             >info@sobaka.ge</a
@@ -159,19 +168,19 @@
           <p class="footer-address">
             наб. Принсенграхт 263-265,<br />Амстердам
           </p>
-        </div>
+        </address>
         <nav class="footer-nav">
           <ul class="footer-nav-list">
             <li class="footer-nav-item">
-              <a href="#0" class="nav-menu__link nav-menu__link--active"
+              <a href="#0" class="nav-menu-link nav-menu_link-active"
                 >Главная</a
               >
             </li>
             <li class="footer-nav-item">
-              <a href="#0" class="nav-menu__link">Посмотреть лоты</a>
+              <a href="#0" class="nav-menu-link footer-link">Посмотреть лоты</a>
             </li>
             <li class="footer-nav-item">
-              <a href="#0" class="nav-menu__link">Об аукционе</a>
+              <a href="#0" class="nav-menu-link footer-link">Об аукционе</a>
             </li>
           </ul>
         </nav>
