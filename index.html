@@ -11,24 +11,24 @@
   </head>
   <body>
     <header class="header">
-      <nav class="nav">
-        <ul class="nav-menu">
-          <li class="nav-menu-click">
-            <a href="#0" class="nav-menu-click-dont-marker">главная</a>
-          </li>
-          <li>
-            <a href="#0" class="nav-menu-click-look">Посмотреть лоты</a>
-          </li>
-          <li>
-            <a href="#0" class="nav-menu-click-about">Об аукционе</a>
-          </li>
-        </ul>
-      </nav>
+     <nav class="nav">
+  <ul class="nav-menu">
+    <li class="nav-menu__item nav-menu__item--no-marker">
+            <a href="#0" class="nav-menu__link nav-menu__link--active">Главная</a>
+    </li>
+    <li class="nav-menu__item">
+      <a href="#0" class="nav-menu__link">Посмотреть лоты</a>
+    </li>
+    <li class="nav-menu__item">
+      <a href="#0" class="nav-menu__link">Об аукционе</a>
+    </li>
+  </ul>
+</nav>
       <a class="header-logo"
         ><img
           class="header-logo-image"
           src="./images/logo-black.svg"
-          alt="Логотип сайта"
+          alt="Логотип комании оно тебе надо черного цвета"
       /></a>
       <address class="header-address">
         <a class="header-address-phone address-link" href="tel:+99995555555"
@@ -63,7 +63,7 @@
           <li class="lots-cards-item">
             <a href="#0" class="card-link">
               <article class="card card-type-film">
-                <div class="card-overlay"></div>
+                <div class="cover-overlay"></div>
                 <div class="card-content">
                   <h3 class="card-title">
                     Фильм режиссёра, который бросил киношколу
@@ -80,7 +80,7 @@
           <li class="lots-cards-item">
             <a href="#0" class="card-link">
               <article class="card card-type-book">
-                <div class="card-overlay"></div>
+                <div class="cover-overlay"></div>
                 <div class="card-content">
                   <h3 class="card-title">
                     Книга, где описан один скучный день из жизни рекламного
@@ -101,7 +101,7 @@
           <li class="lots-cards-item">
             <a href="#0" class="card-link">
               <article class="card card-type-picture">
-                <div class="card-overlay"></div>
+                <div class="cover-overlay"></div>
                 <div class="card-content">
                   <h3 class="card-title">
                     Картина, которую повторит даже 5-летний сын маминой подруги
@@ -117,7 +117,7 @@
             </a>
           </li>
         </ul>
-        <p><a href="#0" class="lots-more">посмотреть больше</a></p>
+        <a href="#0" class="lots-more">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about-logo">
@@ -150,8 +150,11 @@
     <footer class="footer">
       <div class="footer-content">
         <div class="footer-contacts">
-          <p class="footer-phone">+9 999 555 5555</p>
-          <p class="footer-email">info@sobaka.ge</p>
+          <a class="address-link" href="tel:+99995555555"
+          >+9 999 555 5555</a>
+        <a class="address-link"
+          href="mailto:info@sobaka.ge"
+          >info@sobaka.ge</a>
           <p class="footer-address">
             наб. Принсенграхт 263-265,<br />Амстердам
           </p>
@@ -159,13 +162,13 @@
         <nav class="footer-nav">
           <ul class="footer-nav-list">
             <li class="footer-nav-item">
-              <a href="#0" class="footer-nav-link_no-border">ГЛАВНАЯ</a>
+              <a href="#0" class="nav-menu__link nav-menu__link--active">Главная</a>
             </li>
             <li class="footer-nav-item">
-              <a href="#0" class="footer-nav-link_bordered">ПОСМОТРЕТЬ ЛОТЫ</a>
+              <a href="#0" class="nav-menu__link">Посмотреть лоты</a>
             </li>
             <li class="footer-nav-item">
-              <a href="#0" class="footer-nav-link_about">об аукционе</a>
+              <a href="#0" class="nav-menu__link">Об аукционе</a>
             </li>
           </ul>
         </nav>
