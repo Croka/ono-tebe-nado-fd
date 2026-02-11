@@ -30,7 +30,6 @@
 }
 
 .header-link {
-  text-decoration-thickness: 1.5px;
   text-underline-offset: 4px;
 }
 
@@ -63,7 +62,6 @@
   text-underline-offset: 4px;
   align-items: flex-start;
   font-style: normal;
-  text-decoration-thickness: 1.5px;
 }
 
 .cover {
@@ -305,6 +303,7 @@
   background-color: #ffffff;
   color: #000000;
   margin-top: 180px;
+  margin-bottom: 82px;
 }
 
 .footer-content {
